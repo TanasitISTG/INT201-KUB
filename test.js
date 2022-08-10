@@ -32,6 +32,8 @@ for (let i = 0; i < 5; i++) {
     console.log(`This is loop ${i}`);
 }
 
+
+
 // This could've been done better but yeah... just messin around with it
 function sumAllBetween(num) {
     let sum = 0;
@@ -53,6 +55,8 @@ function findNum(num) {
 let array = findNum(10);
 console.log(array.join(" + ") + " = " + sumAllBetween(10));
 
+
+// professor part
 function displayMessage(message) {
     console.log("Starting message....");
     console.log(message);
@@ -60,3 +64,13 @@ function displayMessage(message) {
 }
 let message = "Hello World";
 displayMessage(message);
+
+
+//test objects
+let person = {
+    name: "John",
+    age: 30
+};
+
+console.log(person.name);
+console.log(person.age);
