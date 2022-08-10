@@ -74,3 +74,10 @@ let person = {
 
 console.log(person.name);
 console.log(person.age);
+
+
+//test arrays again kub
+let tea = ["green", "black", "chamomile", "earl grey"];
+let prices = [1.50, 2.00, 1.75, 2.25];
+let teaAndPrices = [tea, prices];
+console.log(teaAndPrices);
